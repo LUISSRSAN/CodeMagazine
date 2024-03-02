@@ -1,5 +1,5 @@
-h1{
-    color:blue;
+h1,h2,h3,h4,h5,p,li{
+   
     font-size:26px;
     font-family:sans-serif;
     text-transform:uppercase;
@@ -31,4 +31,34 @@ p{
 }
 li{
     font-family:sans-serif;
+}
+
+footer p {
+    font-size:16px;
+}
+
+article header p {
+    font-style:italic;
+}
+
+
+#author{
+    font-style:italic;
+    font-size:18px;
+}
+#copyright{
+    font-size:16px;
+}
+
+.related-author{
+    font-size:18px;
+    font-weight:bold;
+}
+
+ul{
+    list-style:none;
+}
+
+.related{
+    list-style:none;
 }
