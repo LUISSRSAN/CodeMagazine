@@ -1,4 +1,21 @@
-h1,h2,h3,h4,h5{
+
+body{
+    color:#444;
+ 
+}
+
+.container{
+    width:900px;
+    margin:0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+li{
    color:#1098ad;
     font-size:26px;
     font-family:sans-serif;
@@ -92,6 +109,26 @@ a:hover{
 }
 
 a:active{
-    background-color:black;
+    background-color: white;
     font-style:italic;
+}
+a{
+    background-color:white;
+    
+    
+
+}
+#copyright{
+    color:blue;
+}
+
+.text {
+    color:yellow;
+}
+footer p {
+    color:green !important;
+}
+
+nav {
+    font-size:25px;
 }
